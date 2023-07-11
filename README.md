@@ -1,4 +1,4 @@
-# ComputerScienceSocietyWebsite
+# Computer Science Society Website
 ## An initial readme file providing general information and tasks descriptions
 
 Backend programmng language - Python
