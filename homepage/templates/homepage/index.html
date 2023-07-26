@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    {% load static %}
+    <script src="{% static 'homepage/index.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'homepage/styles.css' %}">
 </head>
-<body>
-    SOME TEXT HERE ~ 😁
-</body>
+    <body>
+        <h1>SEE HOW THE CSS FILE IS LINKED</h1>
+        SOME TEXT HERE ~ 😁
+    </body>
 </html>
