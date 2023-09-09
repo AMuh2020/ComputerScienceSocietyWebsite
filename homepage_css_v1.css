@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Share%20Tech%20Mono');
+#banner {
+	background-color: #8FB3FF;
+	color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+	width: 100%;
+	padding: 10px 10px;
+	height: 70px;
+	display: block;
+}
+
+#menu_title {
+	font-size: 55px;
+	margin: 10px;
+	margin-top: 0px;
+	top: 50%;
+	display: inline-block;
+	vertical-align: center;
+	}
+	
+.menu_buttons{
+	font-family: "VT323";
+	font-size: 31px;
+	background-color: #EBF1FF;
+	padding: 10px;
+	height: 50px;
+	margin: 0px 10px;
+	color:black;
+	text-decoration: none;
+	/*border-radius: 5px;*/
+	box-shadow: 5px 5px 3px grey;
+	
+}
+
+.menu_buttons:hover{
+	background-color: #D41D6C;
+	color: white;
+}
+
+#welcome {
+	display: inline-block;
+	width: 45%;
+	position: relative;
+	margin: 20px;
+	margin-top: 110px;
+	background-color: #EBF1FF;
+	/*border:6px solid #D41D6C;*/
+	/*border-radius: 10px;*/
+	height: 480px;
+	float: left;
+}
+
+h1{
+	font-family: 'VT323';
+}
+
+.clear {
+	margin: 15px;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Share Tech Mono';
+	
+}
+
+.meet_n_greet {
+	background-color: #D41D6C;
+	overflow: hidden;
+	display: inline-block;
+	width: 23%;
+	padding: 10px;
+	height: 200px;
+}
+
+#top {
+	padding: 20px;
+	padding-top: 110px;
+}
+#bottom {
+	padding: 20px;
+}
+.description {
+	display: inline-block;
+	width: 150px;
+}
