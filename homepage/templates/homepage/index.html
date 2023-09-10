@@ -1,15 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    {% load static %}
-    <script src="{% static 'homepage/index.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'homepage/styles.css' %}">
-</head>
-    <body>
-        <h1>SEE HOW THE CSS FILE IS LINKED</h1>
-        SOME TEXT HERE ~ 😁
-    </body>
-</html>
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+		<div id=welcome>
+			<h1 style="font-size:50px;color: #D41D6C;padding:10px;text-align:center;">Welcome to Comp Sci Soc! 🤖</h1>
+			<p class=clear>
+			This is our website. Here you can find all of our upcoming events and latest news, 
+			along with code project ideas, educational resources and much more to explore...
+			<br>
+			<br>
+			<br>
+			<p class=clear>WELL!? WHAT COULD YOU POSSIBLY BE WAITING FOR? Go Away!!!! 
+			</p>
+		</div>
+		<div id=top>
+			<div class=meet_n_greet> 
+				<img src="person.png" alt="person" style="height:90px; display: inline-block">
+				<p class=description>Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you</p>
+			</div>
+			
+			<div class=meet_n_greet> 
+				<img src="person.png" alt="person" style="height:60px;">
+				<p>So we back in the mine Got our pickaxe swinging from side to side Side-side to side This task, a grueling one Hope to find some diamonds tonight, night, night Diamonds tonight</p>
+			</div>
+		</div>
+		<div id=bottom>
+			<div class=meet_n_greet> 
+				<img src="person.png" alt="person" style="height:60px;">
+				<p>My power flurries through the air into the ground My soul is spiraling in frozen fractals all around And one thought crystallizes like an icy blast I'm never going back, the past is in the past</p>
+			</div>
+			
+			<div class=meet_n_greet> 
+				<img src="person.png" alt="person" style="height:60px;">
+				<p>"Ring-ding-ding-ding-dingeringeding! Gering-ding-ding-ding-dingeringeding! Gering-ding-ding-ding-dingeringeding!" What the fox say?</p>
+			</div>
+		</div>
+{% endblock %}
