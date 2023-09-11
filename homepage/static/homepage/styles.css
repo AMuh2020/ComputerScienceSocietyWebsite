@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css?family=VT323');
 @import url('https://fonts.googleapis.com/css?family=Share%20Tech%20Mono');
+
+/* https://realtimecolors.com/?colors=000000-ffffff-8fb3ff-ebf1ff-d41d6d */
+:root{
+    --text: #000000;
+    --background: #ffffff;
+    --primary: #8fb3ff;
+    --secondary: #ebf1ff;
+    --accent: #d41d6d;
+}
+
 nav {
 	background-color: #8FB3FF;
 	color: black;
@@ -28,6 +38,10 @@ nav {
 	/*border-radius: 5px;*/
 	box-shadow: 5px 5px 3px grey;
 	
+}
+
+.box {
+    background-color: var(--primary);
 }
 
 .menu_buttons:hover{
