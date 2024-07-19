@@ -1,3 +1,4 @@
+# PROJECT ABANDONED
 # Computer Science Society Website
 ## An initial readme file providing general information and tasks descriptions
 
@@ -12,4 +13,4 @@ To get started with django: [https://www.djangoproject.com/start/](https://www.d
 
 Every folder and file other than manage.py and .gitignore is part of the django web application.
 
-# PROJECT ABANDONED
+
